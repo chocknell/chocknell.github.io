@@ -12,4 +12,4 @@ My name's Catherine and i'm a Data Scientist!
 
 ### Contact me
 
-[catherine.hocknell@gmail.com](mailto:email@domain.com)
+[catherine.hocknell@gmail.com](mailto:catherine.hocknell@gmail.com)
