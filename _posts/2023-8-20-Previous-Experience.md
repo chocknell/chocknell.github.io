@@ -30,8 +30,10 @@ Find out a little more about my background and previous experience.
 
 #### BrainStation | Diploma, Data Science
 *JAN 2023 - APR 2023, VANCOUVER, CANADA*
+
 Completed with 94% final grade.
 
 #### University of Exeter | MEng Mechanical Engineering
 *SEP 2012 - JUL 2016, EXETER, UK*
+
 Graduated with a 1st Class Degree.
