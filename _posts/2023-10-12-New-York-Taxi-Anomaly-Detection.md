@@ -45,15 +45,15 @@ Before digging further into these specific dates and their potential meaning, a 
 
 Due to the weekly differencing that has been applied for stationarity, the anomalies highlighted above are showing clear gaps of 7 days between the highlights max/min values. Looking into these in more detail, there seem to be **seven** clear dates to look into in more detail. This is done in the table below, which also indicates which of the dates is an anomaly, as well as the event that happened on this date which may have led to this.
 
-|Outlier Dates|Key Date|Occasion|
-|:---:|:---:|:---:|
-|11th - 13th July|4th July|Independence Day|
-|1st & 8th September|1st September|Labor Day|
-|2nd & 9th November|2nd November|New York Marathon|
-|28th November & 4th December|28th November|Thanksgiving|
-|25th December & 1st January|25th December|Christmas|
-|1st & 8th January|1st January|New Years Day|
-|19th & 26th January|26th January|2015 North American Blizzard|
+| Outlier Dates                | Key Date      | Occasion                     |
+| :--------------------------: | :-----------: | :--------------------------: |
+| 11th - 13th July             | 4th July      | Independence Day             |
+| 1st & 8th September          | 1st September | Labor Day                    |
+| 2nd & 9th November           | 2nd November  | New York Marathon            |
+| 28th November & 4th December | 28th November | Thanksgiving                 |
+| 25th December & 1st January  | 25th December | Christmas                    |
+| 1st & 8th January            | 1st January   | New Years Day                |
+| 19th & 26th January          | 26th January  | 2015 North American Blizzard |
 
 These dates also align with the anomalies found using the MAD method, with the exception of the 19th January.
 
