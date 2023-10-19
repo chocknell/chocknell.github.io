@@ -18,10 +18,21 @@ The second part of this project was to create three different forms of recommend
 2. User based
 3. Collaborative
 
-These were each created to allow for recommendations to be given to a new user of a site, therefore avoiding the 'Cold Start' problem. An example of a Content-Based recommendation is given in the image below.
+These were each created to allow for recommendations to be given to a new user of a site, therefore avoiding the 'Cold Start' problem. This was done by associating the following inputs/outputs to each of the recommendations:
 
-*Content Based Recommendation*
+![recommenders]({{ site.baseurl }}/images/recommenders.png)
+
+An example of an output from the Content-Based recommendation is given in the image below.
+
+*Content-Based Recommendation*
 ![movies]({{ site.baseurl }}/images/movies.png)
+
+The same movie input for the User-Based recommender would provide the following results.
+
+*User-Based Recommendation*
+![user_movies]({{ site.baseurl }}/images/user_movies.png)
+
+These results show that there is some similarity in the recommendations from both different systems, with both showing results related to the input movie.
 
 ### Try It Yourself!
 Feel free to look into both the Sentiment Analysis and Recommendation Systems via my [Streamlit App](https://moviereviews-chocknell.streamlit.app/), and please reach out if you have any questions!

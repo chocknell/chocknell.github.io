@@ -6,7 +6,7 @@ title: Rugby Statistics Dashboard
 Using Power BI to visualise the statistics from international Rugby matches between 1871 and 2023.
 
 ### Building a Dashboard
-After completing a couple of courses covering PowerBI  on DataCamp, I wanted to use my new skills to put together a dashboard based on one of my interests. In this case, with the Rugby World Cup just around the corner, I used this as my primary focus and found a dataset on [Kaggle](https://www.kaggle.com/datasets/lylebegbie/international-rugby-union-results-from-18712022) which contained the results from multiple international rugby matches between 1871 to 2023. My dashboard tracks the number of wins for each country, and an overall snapshot of this can be seen below.
+After completing a couple of courses covering PowerBI on DataCamp, I wanted to use my new skills to put together a dashboard based on one of my interests. In this case, with the Rugby World Cup just around the corner, I used this as my primary focus and found a dataset on [Kaggle](https://www.kaggle.com/datasets/lylebegbie/international-rugby-union-results-from-18712022) which contained the results from multiple international rugby matches between 1871 to 2023. My dashboard tracks the number of wins for each country, and an overall snapshot of this can be seen below.
 
 *Full Dashboard*
 ![full_dash]({{ site.baseurl }}/images/rugby/full_dash.png)
