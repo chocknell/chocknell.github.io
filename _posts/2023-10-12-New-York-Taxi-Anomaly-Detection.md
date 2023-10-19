@@ -25,7 +25,7 @@ Data is considered to be stationary when the variance is equal across a constant
 Using the knowledge learnt above, the time series data can then be **decomposed** to evaluate the trend, seasonality and residuals when taking each *season* in this case to be a week.
 
 *NYC Taxi Usage with Weekly Seasonal Decomposition*
-![weekly_seasonality]({{ site.baseurl }}/images/taxi/weekly_seasonality.png)
+![weekly_seasonality]({{ site.baseurl }}/images/taxi/weekly_decomposition.png)
 
 Already looking at the above breakdown of the data, there seem to be some obvious locations of potential anomalies seen within the residual plot. The plot also shows that there is no obvious trend within the data, with there being a variety of peaks and troughs occuring throughout the given time period.
 
@@ -46,7 +46,7 @@ Before digging further into these specific dates and their potential meaning, a 
 Due to the weekly differencing that has been applied for stationarity, the anomalies highlighted above are showing clear gaps of 7 days between the highlights max/min values. Looking into these in more detail, there seem to be **seven** clear dates to look into in more detail. This is done in the table below, which also indicates which of the dates is an anomaly, as well as the event that happened on this date which may have led to this.
 
 |Outlier Dates|Key Date|Occasion|
-|-|-|-|
+|:---:|:---:|:---:|
 |11th - 13th July|4th July|Independence Day|
 |1st & 8th September|1st September|Labor Day|
 |2nd & 9th November|2nd November|New York Marathon|
@@ -55,7 +55,7 @@ Due to the weekly differencing that has been applied for stationarity, the anoma
 |1st & 8th January|1st January|New Years Day|
 |19th & 26th January|26th January|2015 North American Blizzard|
 
-These dats also align with the anomalies found using the MAD method, with the exception of the 19th January.
+These dates also align with the anomalies found using the MAD method, with the exception of the 19th January.
 
 ### Conclusions
 For an initial investigation into possible anomalies of time series data, two methods have been used that were able to accurately predict seven specific times where the taxi usage in New York City was abnormal. Unsurprisingly, these occurred during a number of National holidays (i.e. Independence Day, Christmas and New Year), however also highlighted a couple of more unexpected events that impacted the use of taxis - namely the New York Marathon in November 2014 and a large snow storm in January 2015.
