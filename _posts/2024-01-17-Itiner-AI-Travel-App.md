@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Itiner-AI ':' A Bespoke Travel App
+title: Itiner-AI - A Bespoke Travel App
 ---
 
 Prototype of an Artificial Intelligence App using Generative AI to create bespoke itineraries and keepsake images for travellers.
@@ -37,11 +37,12 @@ Multiple prompt engineering techniques were then used come up with the baseline 
 
 ### Itinerary Generation
 With the prompt engineering complete and example itineraries created, a prototype of the app was then developed using **Figma** to show an example of the flow that would be included within the app to create the itinerary. In this current design, the user will define the following:
-- location of trip
-- duration of trip
-- likes
-- dislikes
-- specific requirements
+- Location of trip
+- Duration of trip
+- Likes
+- Dislikes
+- Specific requirements
+
 The app will then generate a detailed itinerary for the specified time period which will be available within the app, and also extract the key details to be added to a *Canva* template for easier viewing when offline. This is shown in the image below, which details the flow for itinerary generation.
 
 *Itinerary Generation Flow*
@@ -57,4 +58,6 @@ The final phase of completing the prototype is to include a location for image g
 ### Conclusion and Next Steps
 This project allowed me to really dig deeper into the Artificial Intelligence options that are readily available, and also learn about what is required when bringing an app to market. There were a few challenges met along the way, namely due to the short-term 'memory' issues of ChatGPT3.5 and the occasional sensoring of specific words when generating images (i.e. Space Needle), however these can be rectified with re-training new models on specific documentation should the idea progress. There are many routes available for improvement, for example including a mapping feature to visualize the route to be taken, as well as an option for providing feedback and also a potential revenue stream from selling physical copies of the Scrapbook. Watch this space to see what happens next!
 
-![logo]({{ site.baseurl }}/images/itinerai/logo.png)
+<p align="center">
+  <img src="{{ site.baseurl }}/images/itinerai/logo_small.png" alt="logo"/>
+</p>
