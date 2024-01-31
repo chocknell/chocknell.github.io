@@ -3,7 +3,7 @@ layout: post
 title: Itiner-AI - A Bespoke Travel App
 ---
 
-Prototype of an Artificial Intelligence App using Generative AI to create bespoke itineraries and keepsake images for travellers.
+Prototype of an Artificial Intelligence App using Generative AI to create bespoke itineraries and keepsake images for travellers. Check out the beginnings of an online version of the app [here](https://itiner-ai.streamlit.app/)!
 
 ### Concept
 As a keen traveller, I am constantly looking for recommendations when going to a new place to make sure I can have the best possible experience. This is particularly the case when I have a limited time to spend in specific cities, where there is not currently an app available in the market that allows for specific personalization. This led me to come up with an idea for a new travel app, named **Itiner-AI** which uses **Generative AI** to come up with itineraries based on a users like/dislikes. To incorporate further use of Artificial Intelligence techniques, the app will also generate an image of a defined style including various different locations that have been visited, for the user to keep as a memento. The concept and flow of the application is shown in the image below.
@@ -56,7 +56,7 @@ The final phase of completing the prototype is to include a location for image g
 ![flow2]({{ site.baseurl }}/images/itinerai/flow2.png)
 
 ### Conclusion and Next Steps
-This project allowed me to really dig deeper into the Artificial Intelligence options that are readily available, and also learn about what is required when bringing an app to market. There were a few challenges met along the way, namely due to the short-term 'memory' issues of ChatGPT3.5 and the occasional sensoring of specific words when generating images (i.e. Space Needle), however these can be rectified with re-training new models on specific documentation should the idea progress. There are many routes available for improvement, for example including a mapping feature to visualize the route to be taken, as well as an option for providing feedback and also a potential revenue stream from selling physical copies of the Scrapbook. Watch this space to see what happens next!
+This project allowed me to really dig deeper into the Artificial Intelligence options that are readily available, and also learn about what is required when bringing an app to market. There were a few challenges met along the way, namely due to the short-term 'memory' issues of ChatGPT3.5 and the occasional sensoring of specific words when generating images (i.e. Space Needle), however these can be rectified with re-training new models on specific documentation should the idea progress. There are many routes available for improvement, for example including a mapping feature to visualize the route to be taken, as well as an option for providing feedback and also a potential revenue stream from selling physical copies of the Scrapbook. Watch this space to see what happens next, but in the mean time feel free to check out my [Streamlit App](https://itiner-ai.streamlit.app/).
 
 <p align="center">
   <img src="{{ site.baseurl }}/images/itinerai/logo_small.png" alt="logo"/>
